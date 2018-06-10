@@ -1,0 +1,35 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h4 align="center">PTTP Client</h4>
+<div >
+  <div>
+  <label>Depth Ini</label>
+  <input type="number" name="depthIni" min="0">
+  <br>
+    <label>Depth Inc</label>
+    <input type="number" name="depthInc" min="0">
+    <br>
+    <label>Depth Max</label>
+    <input type="number" name="depthMax" min="0">
+    <br>
+  </div>
+    <br>
+  <div>
+    <label>Load KB</label>
+    <input type="file"
+           id="file"
+           (change)="handleFileInput($event.target.files)"
+           accept=".pttp"
+            >
+  <button>Erase KB</button>
+
+  </div>
+  <br>
+  <div>
+    <label>Query</label>
+   <input type="text" name="query">
+   <br>
+   <button>Answer</button>
+  </div>
+</div>
+
+

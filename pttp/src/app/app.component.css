@@ -1,0 +1,17 @@
+button{
+  margin: 2px;
+}
+
+
+input{
+  margin: 2px;
+}
+
+label{
+  align-content: center;
+  margin: 2px;
+}
+div {
+  width: 200px;
+  margin: 0 auto;
+}
